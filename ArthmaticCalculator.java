@@ -1,11 +1,11 @@
-package com.sl.Assignments.PracticeProject;
+package calculator;
 
 import java.util.Scanner;
 
 public class ArthmaticCalculator {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		double Ans
+//		double Ans;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("eneter the two numbers");
 		int firstnum=sc.nextInt();
@@ -27,4 +27,3 @@ public class ArthmaticCalculator {
 		System.out.println("the answer is " +Ans);
 	}
 }
-
